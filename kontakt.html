@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kontakt — PTAK STOMATOLOGIA Wadowice</title>
+    <meta name="description" content="Umów wizytę: 664 06 55 82. ul. Ady Sari 38, 34-100 Wadowice. Rejestracja pn–pt 9:00–17:00." />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;500;600&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body data-page="kontakt">
+    <div id="site-header"></div>
+    <main>
+      <section class="page-hero">
+        <div class="wrap">
+          <img class="logo" src="assets/logo.svg" alt="PTAK STOMATOLOGIA" width="200" height="80" />
+          <p class="eyebrow">Rejestracja</p>
+          <h1>Umów wizytę</h1>
+          <p>Telefon w godzinach rejestracji. Po 17:00 i w weekend — WhatsApp albo formularz, oddzwonimy.</p>
+        </div>
+      </section>
+      <section class="section" id="umow">
+        <div class="wrap split">
+          <div>
+            <h2>PTAK STOMATOLOGIA sp. z o.o.</h2>
+            <p><a href="https://www.google.com/maps/search/?api=1&amp;query=PTAK+STOMATOLOGIA+Ady+Sari+38+Wadowice" target="_blank" rel="noopener">ul. Ady Sari 38<br />34-100 Wadowice</a></p>
+            <p>NIP 5512657728<br />REGON 523848403</p>
+            <p><a class="btn btn-fill" href="tel:+48664065582">664 06 55 82</a></p>
+            <p>
+              <a href="https://wa.me/48664065582" target="_blank" rel="noopener">WhatsApp</a>
+              ·
+              <a href="https://www.facebook.com/PTAKStomatologia/" target="_blank" rel="noopener">Facebook</a>
+              ·
+              <a href="https://www.google.com/search?q=PTAK+STOMATOLOGIA+Wadowice" target="_blank" rel="noopener">Google</a>
+            </p>
+            <p class="note">Rejestracja: poniedziałek–piątek 9:00–17:00. Gabinet przyjmuje pacjentów do 20:00.</p>
+            <table class="hours">
+              <tbody>
+                <tr><td>Poniedziałek</td><td>9:00–20:00</td></tr>
+                <tr><td>Wtorek</td><td>9:00–20:00</td></tr>
+                <tr><td>Środa</td><td>9:00–20:00</td></tr>
+                <tr><td>Czwartek</td><td>9:00–20:00</td></tr>
+                <tr><td>Piątek</td><td>9:00–20:00</td></tr>
+                <tr><td>Sobota</td><td>zamknięte</td></tr>
+                <tr><td>Niedziela</td><td>zamknięte</td></tr>
+              </tbody>
+            </table>
+            <p>Duży parking przy budynku, także miejsca na rowery. Spokojna część Wadowic.</p>
+          </div>
+          <div>
+            <form class="book-form" id="book-form">
+              <p class="lede" id="hours-status">Rejestracja pn–pt 9:00–17:00.</p>
+              <label>Imię<input name="imie" required autocomplete="given-name" /></label>
+              <label>Telefon<input name="tel" type="tel" required autocomplete="tel" inputmode="tel" /></label>
+              <label>Potrzebuję
+                <select name="usluga" required>
+                  <option value="konsultacja">Konsultacja / przegląd</option>
+                  <option value="bol">Ból / wizyta doraźna</option>
+                  <option value="higiena">Higienizacja</option>
+                  <option value="kanal">Leczenie kanałowe</option>
+                  <option value="implant">Implanty</option>
+                  <option value="orto">Ortodoncja</option>
+                  <option value="dziecko">Wizyta dziecka</option>
+                  <option value="rtg">RTG / CBCT</option>
+                </select>
+              </label>
+              <label>Preferowana pora
+                <select name="pora" required>
+                  <option value="9-12">9:00–12:00</option>
+                  <option value="12-16">12:00–16:00</option>
+                  <option value="16-20">16:00–20:00</option>
+                </select>
+              </label>
+              <label class="check">
+                <input type="checkbox" name="zgoda" required />
+                <span>Zgoda na kontakt w sprawie wizyty (RODO).</span>
+              </label>
+              <button class="btn btn-fill" type="submit">Wyślij na WhatsApp</button>
+            </form>
+            <p class="book-thanks" id="book-thanks" hidden>Jeśli WhatsApp się nie otworzył, zadzwoń: <a href="tel:+48664065582">664 06 55 82</a>.</p>
+            <iframe
+              title="Mapa — Ady Sari 38, Wadowice"
+              src="https://maps.google.com/maps?q=PTAK%20STOMATOLOGIA%20Ady%20Sari%2038%20Wadowice&amp;output=embed"
+              width="100%"
+              height="420"
+              style="border: 0; margin-top: 32px; min-height: 360px;"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="site-footer"></div>
+    <script src="js/site.js"></script>
+  </body>
+</html>
